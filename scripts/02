@@ -1,0 +1,5 @@
+#!/bin/bash/
+
+sudo userdel -rf $1
+
+# usage: sh 02 <userdel>

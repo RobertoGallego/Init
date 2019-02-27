@@ -1,0 +1,2 @@
+#exit
+/usr/sbin/service ssh stop

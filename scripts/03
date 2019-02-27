@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo fdisk -l | grep "dev"
+echo "\n------ Select a disk -------"
+if [ $1 ]; then
+	sudo badblocks -v /dev/$1 > badsectors.txt
+else
+	echo "Usage: sh 03 <Selected disk>"
+	echo "----------------------------"
+fi

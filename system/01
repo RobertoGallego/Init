@@ -1,0 +1,11 @@
+# To check the version:
+cat /etc/debian_version
+lsb_release -a
+hostnamectl
+
+# To check the version name:
+cat /etc/os=release
+
+# To check linux kernel version:
+
+uname -r

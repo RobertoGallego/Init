@@ -1,0 +1,3 @@
+ls /etc/init.d
+
+#start - stop - restart - status. example: /etc/rc.d/init.d/smb start // starting Samba SMB daemon.

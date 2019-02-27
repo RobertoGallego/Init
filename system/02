@@ -1,0 +1,2 @@
+# You must be root to change the host name
+hostname <new_name>
